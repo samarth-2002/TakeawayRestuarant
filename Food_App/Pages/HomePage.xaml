@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Food_App.Pages.HomePage"
+             Shell.NavBarIsVisible="False"
+             
+             >
+    <Grid RowDefinitions="Auto,*,Auto">
+
+        <!--Row 1 : Header-->
+        <Grid BackgroundColor="NavajoWhite">
+
+            <!--<FlexLayout Direction="Row" BackgroundColor="Black">
+                <Image Margin="5">
+                    <Image.Source>
+                        <FontImageSource FontFamily="fontello" Glyph="&#xE800;" Size="30"/>
+                    </Image.Source>
+                </Image>
+                <Label x:Name="label1" HorizontalTextAlignment="Start" TextColor="White" FontSize="25"/>
+                <Image Margin="5" HorizontalOptions="End">
+                    <Image.Source>
+                        <FontImageSource FontFamily="fontello1" Glyph="&#xE801;" Size="30"/>
+                    </Image.Source>
+                </Image>
+            </FlexLayout>-->
+
+        
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+            <Image>
+                <Image.Source>
+                    <FontImageSource FontFamily="fontello" Glyph="&#xE800;" Size="18"/>
+                </Image.Source>
+            </Image>
+
+            <Label x:Name="label1" Grid.Column="1" HorizontalTextAlignment="Start" TextColor="Black" FontSize="20" FontAttributes="Bold"/>
+
+            <Image Grid.Column="4">
+                <Image.Source>
+                    <FontImageSource FontFamily="fontello1" Glyph="&#xE801;" Size="18"/>
+                </Image.Source>
+            </Image>
+
+
+
+        </Grid>
+
+        <!--Row 2 : Content-->
+        <Grid Grid.Row="1" x:Name="PrimaryPageLayout">
+
+           
+                <Grid RowDefinitions="Auto,*">
+                  <Grid Grid.Row="0" Margin="10">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition />
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+
+                    <BoxView Color="WhiteSmoke" Margin="5" HeightRequest="50" CornerRadius="8"/>
+                    <Label Text="Disconnected" HorizontalOptions="Start" VerticalOptions="Center" Padding="10" TextColor="Black"/>
+                    <BoxView Color="WhiteSmoke" Grid.Row="1" Margin="5" HeightRequest="50" CornerRadius="8"/>
+                    <Label Grid.Row="1" Text="Pending Order" HorizontalOptions="Start" VerticalOptions="Center" Padding="10" TextColor="Black"/>
+                    
+                    <Image Grid.Column="1" HorizontalOptions="End" VerticalOptions="Center" BackgroundColor="Black">
+                        <Image.Source>
+                            <FontImageSource FontFamily="fontello2" Glyph="&#xF0F3;" Size="30"/>
+                        </Image.Source>
+                    </Image>
+                    <BoxView Color="WhiteSmoke" Grid.Column="1" Grid.Row="1" Margin="5" CornerRadius="8"/>
+                    <Label Grid.Column="1" Grid.Row="1" Text="Pending KOT" HorizontalOptions="End" VerticalOptions="Center" Padding="10" TextColor="Black"/>
+
+
+
+
+                </Grid>
+                   <Grid Grid.Row="1">
+
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+                        <Button BorderColor="NavajoWhite" CornerRadius="50" WidthRequest="300" HeightRequest="50" Text="Order" HorizontalOptions="Center" VerticalOptions="Center" Margin="5" FontSize="20" BackgroundColor="WhiteSmoke" TextColor="Black" FontAttributes="Bold"/>
+                        <Button CornerRadius="50" WidthRequest="300" HeightRequest="50" Text="Unbilled KOT" HorizontalOptions="Center" VerticalOptions="Center" Margin="5" FontSize="20" BackgroundColor="WhiteSmoke" TextColor="Black" FontAttributes="Bold"/>
+                        <Button CornerRadius="50" WidthRequest="300" HeightRequest="50" Text="Billing" HorizontalOptions="Center" VerticalOptions="Center" Margin="5" FontSize="20" BackgroundColor="WhiteSmoke" TextColor="Black" FontAttributes="Bold"/>
+                        <Button CornerRadius="50" WidthRequest="300" HeightRequest="50" Text="Settings" HorizontalOptions="Center" VerticalOptions="Center" Margin="5" FontSize="20" BackgroundColor="WhiteSmoke" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+
+                   </Grid>
+                </Grid>
+
+
+
+
+
+        </Grid>
+
+        <!--Row 3 : Footer-->
+        <Grid Grid.Row="2" BackgroundColor="NavajoWhite">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+
+            <Label Grid.Column="0" FontSize="18"  TextColor="Black" Text="About Us"/>
+            <Label Grid.Column="1" TextColor="Black" FontSize="18" Text="Contact Us"/>
+
+        </Grid>
+
+    </Grid>
+</ContentPage>

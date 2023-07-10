@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Food_App.Login"
+             Title="Login"
+             >
+    <StackLayout Margin="50" HorizontalOptions="Fill">
+
+        <StackLayout Padding="10">
+
+            <Image Source="lazzat.jpeg" WidthRequest="150" HeightRequest="150"/>
+
+
+            <!--<Border Stroke="{AppThemeBinding Light=White, Dark=White}"
+                    StrokeThickness="4"
+                    HorizontalOptions="Fill">-->
+
+                
+
+            <!--</Border>-->
+
+            <!--<Picker x:Name="operators"
+                    Title="Select an operator"
+                    Margin="0,20,0,0"
+                    TextColor="{AppThemeBinding Light=Green, Dark=Red}">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Android</x:String>
+                        <x:String>Windows</x:String>
+                        <x:String>Mac</x:String>
+                        <x:String>Unix</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>-->
+            <!--<Border Stroke="{AppThemeBinding Light=White, Dark=White}"
+                    StrokeThickness="4"
+                    HorizontalOptions="Fill">
+
+                <Entry x:Name="txtUserName" IsReadOnly="true" Placeholder="UserName" PlaceholderColor="LightGray" Margin="0,20,0,0" 
+                   Text="{Binding Source={x:Reference operators}, Path=SelectedItem}"
+                   TextColor="{AppThemeBinding Light=Green, Dark=Red}"/>
+
+            </Border>-->
+
+            <!--<Border Stroke="{AppThemeBinding Light=White, Dark=White}"
+                    StrokeThickness="4"
+                    HorizontalOptions="Fill">-->
+
+            <Picker x:Name="operators"
+                    Title="Select an operator"
+                    TextColor="{AppThemeBinding Light=Green, Dark=Red}">
+
+            </Picker>
+
+            <Entry x:Name="txtPassword" Placeholder="Password" PlaceholderColor="LightGray" Margin="0,20,0,0" IsPassword="true" TextColor="{AppThemeBinding Light=Green, Dark=Red}"/>
+
+            <!--</Border>-->
+
+            
+            
+            <Button x:Name="btnLogin" Text="Login" Clicked="Login_Clicked" FontSize="Large" FontAttributes="Bold" VerticalOptions="Center" BorderWidth="1.5" CornerRadius="50" Margin="0,20,0,0"/>
+        </StackLayout>
+        
+        
+    </StackLayout>
+</ContentPage>
