@@ -217,7 +217,6 @@ C:\Users\gargs\OneDrive\Desktop\AppDev_MAUI\Food_App\Food_App\bin\Debug\net7.0-w
 C:\Users\gargs\OneDrive\Desktop\AppDev_MAUI\Food_App\Food_App\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 C:\Users\gargs\OneDrive\Desktop\AppDev_MAUI\Food_App\Food_App\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 C:\Users\gargs\OneDrive\Desktop\AppDev_MAUI\Food_App\Food_App\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
-C:\Users\gargs\OneDrive\Desktop\AppDev_MAUI\Food_App\Food_App\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.723.27404.dll
 C:\Users\gargs\OneDrive\Desktop\AppDev_MAUI\Food_App\Food_App\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\Users\gargs\OneDrive\Desktop\AppDev_MAUI\Food_App\Food_App\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 C:\Users\gargs\OneDrive\Desktop\AppDev_MAUI\Food_App\Food_App\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\msquic.dll
@@ -336,3 +335,6 @@ C:\Users\gargs\OneDrive\Desktop\AppDev_MAUI\Food_App\Food_App\bin\Debug\net7.0-w
 C:\Users\gargs\OneDrive\Desktop\AppDev_MAUI\Food_App\Food_App\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ZstdSharp.dll
 C:\Users\gargs\OneDrive\Desktop\AppDev_MAUI\Food_App\Food_App\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mongocrypt.dll
 C:\Users\gargs\OneDrive\Desktop\AppDev_MAUI\Food_App\Food_App\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\fontello.ttf
+C:\Users\gargs\OneDrive\Desktop\AppDev_MAUI\Food_App\Food_App\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\fontello1.ttf
+C:\Users\gargs\OneDrive\Desktop\AppDev_MAUI\Food_App\Food_App\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\fontello2.ttf
+C:\Users\gargs\OneDrive\Desktop\AppDev_MAUI\Food_App\Food_App\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.923.32018.dll

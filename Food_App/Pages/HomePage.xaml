@@ -2,13 +2,12 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Food_App.Pages.HomePage"
-             Shell.NavBarIsVisible="False"
              
              >
     <Grid RowDefinitions="Auto,*,Auto">
 
         <!--Row 1 : Header-->
-        <Grid BackgroundColor="NavajoWhite">
+        <Grid BackgroundColor="NavajoWhite" ColumnDefinitions="60,*,*,50">
 
             <!--<FlexLayout Direction="Row" BackgroundColor="Black">
                 <Image Margin="5">
@@ -29,25 +28,19 @@
                     <RowDefinition />
                     
                 </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition />
-                    <ColumnDefinition />
-                    <ColumnDefinition />
-                    <ColumnDefinition />
-                    <ColumnDefinition />
-                </Grid.ColumnDefinitions>
+           
 
             <Image>
                 <Image.Source>
-                    <FontImageSource FontFamily="fontello" Glyph="&#xE800;" Size="18"/>
+                    <FontImageSource FontFamily="fontello" Glyph="&#xE800;" Size="15" Color="Black"/>
                 </Image.Source>
             </Image>
 
-            <Label x:Name="label1" Grid.Column="1" HorizontalTextAlignment="Start" TextColor="Black" FontSize="20" FontAttributes="Bold"/>
+            <Label x:Name="label1" Grid.Column="1" HorizontalTextAlignment="Start" TextColor="Black" FontSize="25" FontAttributes="Bold"/>
 
-            <Image Grid.Column="4">
+            <Image Grid.Column="3">
                 <Image.Source>
-                    <FontImageSource FontFamily="fontello1" Glyph="&#xE801;" Size="18"/>
+                    <FontImageSource FontFamily="fontello1" Glyph="&#xE801;" Size="18" Color="Black"/>
                 </Image.Source>
             </Image>
 
@@ -77,11 +70,12 @@
                     <BoxView Color="WhiteSmoke" Grid.Row="1" Margin="5" HeightRequest="50" CornerRadius="8"/>
                     <Label Grid.Row="1" Text="Pending Order" HorizontalOptions="Start" VerticalOptions="Center" Padding="10" TextColor="Black"/>
                     
-                    <Image Grid.Column="1" HorizontalOptions="End" VerticalOptions="Center" BackgroundColor="Black">
+                    <Image Grid.Column="1" HorizontalOptions="End" VerticalOptions="Center">
                         <Image.Source>
-                            <FontImageSource FontFamily="fontello2" Glyph="&#xF0F3;" Size="30"/>
+                            <FontImageSource FontFamily="fontello2" Glyph="&#xF0F3;" Size="30" Color="Yellow"/>
                         </Image.Source>
                     </Image>
+                   
                     <BoxView Color="WhiteSmoke" Grid.Column="1" Grid.Row="1" Margin="5" CornerRadius="8"/>
                     <Label Grid.Column="1" Grid.Row="1" Text="Pending KOT" HorizontalOptions="End" VerticalOptions="Center" Padding="10" TextColor="Black"/>
 
@@ -92,7 +86,7 @@
                    <Grid Grid.Row="1">
 
                     <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
-                        <Button BorderColor="NavajoWhite" CornerRadius="50" WidthRequest="300" HeightRequest="50" Text="Order" HorizontalOptions="Center" VerticalOptions="Center" Margin="5" FontSize="20" BackgroundColor="WhiteSmoke" TextColor="Black" FontAttributes="Bold"/>
+                        <Button CornerRadius="50" WidthRequest="300" HeightRequest="50" Text="Order" HorizontalOptions="Center" VerticalOptions="Center" Margin="5" FontSize="20" BackgroundColor="WhiteSmoke" TextColor="Black" FontAttributes="Bold" Clicked="Button_Clicked"/>
                         <Button CornerRadius="50" WidthRequest="300" HeightRequest="50" Text="Unbilled KOT" HorizontalOptions="Center" VerticalOptions="Center" Margin="5" FontSize="20" BackgroundColor="WhiteSmoke" TextColor="Black" FontAttributes="Bold"/>
                         <Button CornerRadius="50" WidthRequest="300" HeightRequest="50" Text="Billing" HorizontalOptions="Center" VerticalOptions="Center" Margin="5" FontSize="20" BackgroundColor="WhiteSmoke" TextColor="Black" FontAttributes="Bold"/>
                         <Button CornerRadius="50" WidthRequest="300" HeightRequest="50" Text="Settings" HorizontalOptions="Center" VerticalOptions="Center" Margin="5" FontSize="20" BackgroundColor="WhiteSmoke" TextColor="Black" FontAttributes="Bold"/>

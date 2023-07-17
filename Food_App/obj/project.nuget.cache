@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "U0ClslRIL83g44ZgqV69g4OUSuEc5xqFdkEIwx5mAvIyhfUzujKyzLZXGXTIX29tClEyH1oW0GkfuBnsVAW9sQ==",
+  "dgSpecHash": "qb1OQmn15dQp6mrdtMI2SeMWXr1MRASenXF9MfjFcTu0UFgws4ifnJuguX7PC2QPXlr4Ku08Lk5kgrQkaC2cLw==",
   "success": true,
   "projectFilePath": "C:\\Users\\gargs\\OneDrive\\Desktop\\AppDev_MAUI\\Food_App\\Food_App\\Food_App.csproj",
   "expectedPackageFiles": [
@@ -116,10 +116,10 @@
     "C:\\Users\\gargs\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.6.4.1\\xamarin.kotlinx.coroutines.android.1.6.4.1.nupkg.sha512",
     "C:\\Users\\gargs\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.4.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
     "C:\\Users\\gargs\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512",
-    "C:\\Users\\gargs\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512",
-    "C:\\Users\\gargs\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.7\\microsoft.aspnetcore.app.runtime.win-x64.7.0.7.nupkg.sha512",
-    "C:\\Users\\gargs\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.7\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.7.nupkg.sha512",
-    "C:\\Users\\gargs\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.7\\microsoft.netcore.app.runtime.win-x64.7.0.7.nupkg.sha512"
+    "C:\\Users\\gargs\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.29\\microsoft.windows.sdk.net.ref.10.0.19041.29.nupkg.sha512",
+    "C:\\Users\\gargs\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.9\\microsoft.aspnetcore.app.runtime.win-x64.7.0.9.nupkg.sha512",
+    "C:\\Users\\gargs\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.9\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.9.nupkg.sha512",
+    "C:\\Users\\gargs\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.9\\microsoft.netcore.app.runtime.win-x64.7.0.9.nupkg.sha512"
   ],
   "logs": []
 }

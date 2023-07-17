@@ -8,7 +8,7 @@ namespace Food_App.Models
 {
     public class ManagerInfo
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
+        public string operatorID { get; set; }
+        public string operatorName { get; set; }
     }
 }

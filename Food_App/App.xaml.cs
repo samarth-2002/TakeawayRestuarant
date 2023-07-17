@@ -8,8 +8,12 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		//MainPage = new NavigationPage(new Login());
+        //MainPage = new NavigationPage(new Login());
+        //var NavPage = new NavigationPage(new HomePage("Hello"));
+        //MainPage = NavPage;
 
-        MainPage = new HomePage("Hello");
+        //MainPage = new MainMenu();
+
+        MainPage = new MainMenu();
     }
 }

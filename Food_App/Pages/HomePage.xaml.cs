@@ -11,11 +11,19 @@ public partial class HomePage : ContentPage
 		InitializeComponent();
 		this.username = username;
 		label1.Text = username;
+        NavigationPage.SetHasNavigationBar(this, false);
 
 
 
 
 
-		
-	}
+
+    }
+
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+
+        Navigation.PushAsync(new OrderDashboard());
+
+    }
 }

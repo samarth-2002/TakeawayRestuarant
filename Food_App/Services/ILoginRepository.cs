@@ -9,6 +9,6 @@ namespace Food_App.Services
 {
     public interface ILoginRepository
     {
-        Task<UserInfo> Login(string username, string password);
+        Task<string> LoginAsync(string username, string password);
     }
 }

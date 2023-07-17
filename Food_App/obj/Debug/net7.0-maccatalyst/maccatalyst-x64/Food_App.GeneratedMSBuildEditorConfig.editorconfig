@@ -40,6 +40,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = Food_App.Pages.HomePage.xa
 build_metadata.AdditionalFiles.TargetPath = Pages\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\HomePage.xaml
 
+[C:/Users/gargs/OneDrive/Desktop/AppDev_MAUI/Food_App/Food_App/Pages/MainMenu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Food_App.Pages.MainMenu.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MainMenu.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MainMenu.xaml
+
+[C:/Users/gargs/OneDrive/Desktop/AppDev_MAUI/Food_App/Food_App/Pages/OrderDashboard.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Food_App.Pages.OrderDashboard.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\OrderDashboard.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\OrderDashboard.xaml
+
 [C:/Users/gargs/OneDrive/Desktop/AppDev_MAUI/Food_App/Food_App/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Food_App.Resources.Styles.Colors.xaml

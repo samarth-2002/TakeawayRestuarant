@@ -8,8 +8,8 @@ namespace Food_App.Models
 {
     public class UserInfo
     {
-        public int Id { get; set; }
-        public string UserName { get; set; }
+        public int OperatorID { get; set; }
+        public string operatorName { get; set; }
         public string Password { get; set; }
     }
 }
